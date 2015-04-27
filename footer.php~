@@ -1,0 +1,32 @@
+				
+					<div class="socials">
+						<div class="socials-inner">
+							<h3 align=center>Universidade Federal de São João del-Rei</h3>
+							<div class="cl">&nbsp;</div>
+						</div>
+					</div>
+					<div id="footer">
+						
+						<div class="footer-bottom">
+							<nav class="footer-nav">
+								<ul>
+									<li class="active"><a href="index.php">Página Inicial</a></li>
+									<li><a href="index.php">Câncer de Mama</a></li>
+									<li><a href="pesquisa_tweet.php">Câncer de Pele</a></li>
+									<li><a href="posts_recentes.php">Dengue</a></li>
+									<li><a href="usuarios_populares.php">Ebola</a></li>
+								</ul>
+							</nav>
+							<p class="copy"><strong>Ronan Lopes</strong></p>
+						</div>
+						
+					</div>
+								
+			</div>
+	
+		</div>
+	
+	</div>
+	
+</body>
+</html>

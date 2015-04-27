@@ -1,0 +1,110 @@
+<?php
+	include ("conta_dados.php");
+?>	
+
+<!DOCTYPE html>
+<html lang="pt" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+	<title>Observatório da Saúde - Página Inicial</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/form.css" type="text/css" media="all" />
+
+
+	<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+	<script src="js/functions.js" type="text/javascript"></script>
+	<script src="nvd3/lib/d3.v3.js"></script>
+	<script src="nvd3/nv.d3.js"></script>
+	<script src="nvd3/src/utils.js"></script>
+	<script src="nvd3/src/tooltip.js"></script>
+	<script src="nvd3/src/models/legend.js"></script>
+	<script src="nvd3/src/models/axis.js"></script>
+	<script src="nvd3/src/models/scatter.js"></script>
+	<script src="nvd3/src/models/line.js"></script>
+	<script src="nvd3/src/models/historicalBar.js"></script>
+	<script src="nvd3/src/models/linePlusBarWithFocusChart.js"></script>
+
+	<link href="nvd3/src/nv.d3.css" rel="stylesheet" type="text/css">	
+
+	<script type="text/javascript" src="js/graficohome.js"></script>
+	
+</head>
+<body>
+	<div id="wrapper">
+		
+		<div class="shell">
+			
+			<div class="container">
+				
+				<header id="header">
+					<img src='images/logo2.png' width=120 height=120><a href="#"><h1 id="logo">Observatório da Saúde</h1></a>
+				</header>
+				<nav id="navigation">
+					<ul>
+						<li class="active"><a href="index.php">Página Inicial</a></li>
+						<li><a href="cancerdemama.php">Câncer de Mama</a></li>
+						<li><a href="cancerdepele.php">Câncer de Pele</a></li>
+						<li><a href="dengue.php">Dengue</a></li>
+						<li style="background:none"><a href="ebola.php">Ebola</a></li>
+					</ul>
+				</nav>
+				<div class="main">
+
+				<div id="conteudo">
+					<section class="testimonial">
+						<h3>Sobre o Observatório da Saúde</h3><br>
+					</section>
+
+					<div class="text">
+	    					<p>Com o crescimento do uso de redes sociais pelos usuários da web, e consequentemente da geração de dados por esses usuários, cresceu também o interesse na descoberta de conhecimento em cima desse conteúdo, devido ao volume e velocidade com que esses dados são gerados. Nesse contexto, o Observatório da Saúde é uma aplicação que vem dar suporte a profissionais, estudantes e entusiastas do ramo. </p>
+		   				<p>A principal referência que originou a ideia desta aplicação foi o <a href="http://observatorio.inweb.org.br/">Observatório da Web</a> por (SANTOS et al.), que trata-se de um repositório online de informações a respeito de diversos temas, como as eleições presidenciais no brasil, o campeonato brasileiro de futebol e inclusive sobre a dengue, exibindo informações relevantes sobre cada um dos temas. A aplicação aqui desenvolvida busca apresentar informações de um foco específico não abordado pelos autores: além da dengue, abrange-se também conteúdos disseminados a respeito das principais doenças, visando dar suporte no estudo dessas patologias.</p>
+
+					</div>
+
+					<section class="testimonial">
+						<h3>Quantidade de Dados Coletados</h3><br>
+					</section>
+					<div id="grafico">
+						<div id="chart1" class='graficos'>
+							<svg> </svg>
+						</div>						
+					</div>
+					
+					<div class="controls">
+						<button id="atualizar" name="atualizar" class="btn btn-primary"  onClick="window.location.reload();">Atualizar</button>
+					</div>
+				</div>
+				<div class="socials">
+					<div class="socials-inner">
+						<h3 align=center>Universidade Federal de São João del-Rei</h3>
+						<div class="cl">&nbsp;</div>
+					</div>
+				</div>
+				<div id="footer">
+					
+					<div class="footer-bottom">
+						<nav class="footer-nav">
+							<ul>
+								<li class="active"><a href="index.php">Página Inicial</a></li>
+								<li><a href="cancerdemama.php">Câncer de Mama</a></li>
+								<li><a href="cancerdepele.php">Câncer de Pele</a></li>
+								<li><a href="dengue.php">Dengue</a></li>
+								<li><a href="ebola.php">Ebola</a></li>
+							</ul>
+						</nav>
+						<p class="copy"><strong>Ronan Lopes</strong></p>
+					</div>
+					
+				</div>
+								
+			</div>
+	
+		</div>
+	
+	</div>
+	
+</body>
+</html>

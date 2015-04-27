@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang=”pt,BR”>
+<head>
+	<meta charset=”UTF-8”>
+	<title>API Google Maps V3</title>
+	<link rel="stylesheet" href="css/mapa.css" >
+	<script src="js/mapa.js"></script>
+</head>
+ 
+<body>
+	<div id="mapa"></div>
+</body>
+
+</html>

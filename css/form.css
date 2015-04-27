@@ -1,0 +1,226 @@
+#filtros{
+	width:320px;
+	float: left;
+}
+
+input {
+	font: 12px verdana, arial, helvetica, sans-serif;
+	border-radius: 3px;
+	height: 25px;
+}
+
+form{
+	text-align:center;
+	margin:0 auto;
+}
+
+.form-horizontal{
+	width:320px;
+}
+
+.submit{
+	background-color: #0078a8;
+	height: 30px;
+	width: 130px;
+	font-size: 16;
+	border:2px solid #005687;
+	border-radius: 5px;
+	color:white;
+	float:none;
+	cursor:pointer;
+}
+
+.submit:hover{
+	background-color: #005687;
+}
+
+button{
+	background-color: #00B778;
+	height: 30px;
+	width: 130px;
+	font-size: 16;
+	border:2px solid #007E5A;
+	border-radius: 5px;
+	color:white;
+	float:none;
+	cursor:pointer;
+	position: relative;
+	display:block;
+    	margin: 10px auto 30px auto;
+}
+
+button:hover{
+	background-color: #007E5A;
+}
+
+label {	
+	text-align: right;
+	width: 180px;
+	padding-right: 5px;
+	font-size:16;
+	color: #0078A8;
+}
+
+fieldset {
+	border: solid 1px #A0A0A0;
+	border-radius:5px;
+	padding:25px;
+	margin:0px auto;
+	text-align:center;
+	width: 340px;
+	color: #555;
+	font-size:13;
+	line-height: 28px;
+}
+
+.control-group{
+	margin: 0px auto;
+	color:#000;
+}
+
+#resultados{
+    width: 380px;
+    margin: 0px auto;
+   	border: solid 1px #A0A0A0;
+    border-radius: 5px;
+    overflow:auto;
+    height: 480px;
+}
+
+.twitteruser {
+	color:#009bd8;
+	font-weight:bold;
+}
+
+.titulo {
+    padding: 4px 12px;
+	background-color: #0078a8;
+    margin: 0px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 0px 0px 1px;
+    border-radius: 5px 5px 0px 0px;
+    border-color: #B0B0B0;
+    font-size: 18pt;
+    color: #FFF;
+    font-weight: bold;
+    text-align:center;
+}
+
+.tweets{overflow:auto;}
+
+.tweet {
+    padding: 10px;
+    border-bottom: 1px solid #E8E8E8;
+    border-radius: 5px;
+    background: none repeat scroll 0% 0% #FFF;
+    height:68px;
+    overflow: hidden;
+}
+
+.postsrecentes{
+    width: 290px;
+    margin: 0px auto;
+    margin-bottom:20px;
+   	border: solid 1px #A0A0A0;
+    border-radius: 5px;
+    overflow:auto;
+    height: 480px;
+}
+.postsrecentes img{
+	border-radius:7px;
+	margin-right: 15px;
+}
+
+.titulopost {
+    padding: 4px 12px;
+	background-color: #3b5998;
+    margin: 0px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 0px 0px 1px;
+    border-radius: 5px 5px 0px 0px;
+    border-color: #B0B0B0;
+    font-size: 16pt;
+    color: #FFF;
+    font-weight: bold;
+    text-align:center;
+}
+
+
+.posts {
+    padding: 10px;
+    border-bottom: 1px solid #E8E8E8;
+    border-radius: 5px;
+    background: none repeat scroll 0% 0% #FFF;
+    max-height:70px;
+    overflow: auto;
+}
+
+.posts img {
+	border-radius:7px;
+	margin-right: 15px;
+}
+
+
+.termosfrequentes{
+    width: 250px;
+    margin: 0px auto;
+    margin-bottom:20px;
+   	border: solid 1px #A0A0A0;
+    border-radius: 5px;
+}
+
+.conteudotermos{
+    overflow:auto;
+    height:400px;
+}
+
+.termos {
+    padding: 10px;
+    border-bottom: 1px solid #E8E8E8;
+    border-radius: 5px;
+    background: none repeat scroll 0% 0% #FFF;
+    max-height:70px;
+    overflow: auto;
+}
+
+.main .cols2 { 
+	padding-right: 0; 
+	clear:both;
+}
+.main .cols2 .col2 { 
+	width: 450px; 
+	float: left; 
+}
+.main .cols2 .col2:after { 
+	content:''; 
+	width: 100%; 
+	clear: both; 
+}
+
+.main .cols2 .col2 img { 
+	float: left;
+	margin-right:15px;
+	border-radius:7px;
+	width: 70px;
+}
+.main .cols2 .col-cnt2 { 
+	width: 450px; 
+}
+
+.main .cols2 .col-cnt2 p{
+	margin-right: 10px;
+	text-align: justify;
+}
+
+
+

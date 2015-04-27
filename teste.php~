@@ -1,0 +1,10 @@
+ <?php
+	include ("conexao.php");
+	$collection = $db->TICS_instagram_dengue;
+	$resultados = $collection->find(array("user.verified"=> array('$exists' => true, '$ne' => null)));
+
+	foreach($resultados as $resultado){
+		echo "http://www.twitter.com/".$resultado["user"]["screen_name"]."<br>";
+	}
+
+?> 

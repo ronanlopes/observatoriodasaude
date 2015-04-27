@@ -1,0 +1,203 @@
+body {
+	margin-top: 100px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+}
+.navbar-inverse{
+	width: 100%;
+	height: 5%;
+}
+
+.dropdown-toggle{
+	border-radius: 10px;
+}
+
+.alinhar {
+	width: 60px;
+	height: 20px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+.alinhar-texto {
+	width: 60px;
+	margin-left: 12px;
+	margin-right: 15px;
+}
+
+.alinhar-editado {
+	width: 60px;
+	margin-left: 4px;
+	margin-right: 8px;
+}
+
+.alinhar-ajudabotao {
+	width: 35px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.botoes {
+	width: 50px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+.botao-caractere {
+	margin-left:5px;
+	margin-top: 5px;
+	width: 120px;
+}
+
+.data {
+	font-size: 12px;
+	font-style:italic;
+}
+
+.text-danger {
+	font-size: 12px;
+}
+
+.nome-verde {
+	color: #468847;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Georgia, serif;
+}
+
+.nome-azul {
+  color: #3a87ad;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.comentario {
+	color: #363636;
+	font-size: 14px;
+	padding-top: 900px;
+} 
+
+.alinhar-botao {
+  color: gray;
+  float: right;
+  background: transparent;
+  margin-right: 0px;
+} 
+
+.mural {
+	font-weight: bold;
+	color: 	#21387B;
+	font-size: 16px;
+	margin-top: -15px;
+	margin-left: 17%;
+}
+
+.cadastro-text {
+	color: #3276b1;
+	text-align: left !important;
+
+} 
+
+.popover1 {
+	background: transparent !important;
+	border: transparent !important;
+	list-style-type:none;
+	padding: 2px !important;
+	width: 300px;
+
+}
+
+.cadastro-title {
+	color: #3276b1;
+	font-size: 20px;
+	text-shadow: 0.1em 0.1em  #D1EEEE;
+} 
+
+.filtro-orcamentos {
+	color: white;
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 5px !important;
+}
+
+.panel-heading2 {
+	height: 50px !important;
+}
+
+.cadastro-align {
+	margin-bottom: -15px;
+	margin-left: -10px;
+ } 
+
+.tabela-titulos {
+	color: #3276b1;
+	text-shadow: 0.1em 0.1em  #D1EEEE;
+}
+
+.cadastro1-align {
+	margin-bottom: -30px;
+}
+
+.warning-cadastro {
+	margin-top: 0px;
+	width: 805px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.alinhar-linhas {
+	text-align: center !important;
+	color: #3276b1;
+}	
+	
+.align-box {
+
+	margin-top: 18px;
+	}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+html, body, #wrap {height: 100%;}
+ 
+body > #wrap {height: auto; min-height: 100%;}
+ 
+#main {overflow:auto;
+	padding-bottom: 70px;}  /* deve ter a mesma altura do rodapé */
+ 
+#footer {position: relative;;
+	margin-top: -50px; /* valor negativo da altura do rodapé */
+	height: 70px;
+	clear:both;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(220,220,220,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(220,220,220,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(220,220,220,1) 50%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(220,220,220,1) 50%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(220,220,220,1) 50%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+} 
+ 
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+.align-footer {
+	padding-top: 15px !important;
+	padding-bottom: 1px !important;
+	color: #696969 !important;
+	text-shadow: 0.1em 0.1em 0.1em #FFFAFA !important;
+}

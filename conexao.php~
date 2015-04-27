@@ -1,0 +1,5 @@
+<?php
+	$mongo = new MongoClient(); // connect
+	$db = $mongo->mydb;
+	echo $_SERVER["REQUEST_URI"] ;
+?>
